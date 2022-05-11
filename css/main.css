@@ -19,7 +19,7 @@ body {
     background-color: rgba(0,0,0,.2);
 }
 
-h1, h2 {
+h1, h2, h4 {
     font-family:'Prata', serif;
     text-align: center;
 
@@ -36,6 +36,26 @@ footer {
     border: 1px black solid;
 }
 
+.container-custom {
+  
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.steps__section-thumbnail {
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.steps__content-width {
+    max-width: 456px;
+    margin: 0 auto;
+}
+.steps {
+    padding: 0 40px;
+}
+
 @media (max-width: 768px) {
     .hero {
         min-height: 50vh;
@@ -44,5 +64,49 @@ footer {
     h1 {
         font-size: calc(1.525rem + 3.3vw);
     }
+     }
+
+     @media (min-width: 597px) {.container-custom { 
+        width: 100%;
+        float: left;
+        padding-left: 4rem;
+     }
+    }
+    @media (min-width: 720px) {.container-custom { 
+        width: 100%;
+        float: left;
+        padding-left: 4rem;
+     }
+    }
     
-}
+    
+    @media (min-width: 1200px) {.container-custom { 
+        width: 100%;
+       
+     }
+    
+    
+    
+    }
+    @media (min-width: 1400px) {.container-custom { 
+        width: 100%;
+        float: left;
+        padding-left: 4rem;
+     }
+    }
+    @media (min-width: 1600px) {.container-custom { 
+        width: 100%;
+        float: left;
+        padding-left: 4rem;
+     }
+    }
+    @media (min-width: 544px) {
+        .steps {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+        .steps__section-thumbnail {
+            height: auto;
+        }
+      
+     }
