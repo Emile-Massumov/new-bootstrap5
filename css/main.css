@@ -1,7 +1,7 @@
-body {
+/*body {
     background-color: #FBF0F6;
 }
-
+*/
 
 .hero {
     background-size: cover;
@@ -26,9 +26,11 @@ h1, h2, h4 {
 }
 
 
-footer {
-    background-color: rgb(217, 210, 200);
+.footer__color__home, 
+.footer__color__portfolio {
+    background-color: rgb(209, 198, 182);
 }
+
 
 /*Portfolio page*/
 
