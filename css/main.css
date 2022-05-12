@@ -28,11 +28,14 @@ h1, h2, h4 {
 
 .footer__color__home, 
 .footer__color__portfolio {
-    background-color: rgb(209, 198, 182);
+    background-color:#D3D3D3;
 }
 
 
 /*Portfolio page*/
+.navbar-color {
+    background-color:#D3D3D3;
+}
 
 .border__image {
     border: 1px black solid;
