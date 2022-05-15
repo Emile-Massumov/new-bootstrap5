@@ -126,8 +126,13 @@ h1, h2, h4 {
      /*About page*/
      
      h3, p {
-         padding-left: 2rem;
+         padding: 0 2rem;
+
      }
+
+     .content ul li {
+        padding-bottom: 10px;
+    }
     
      @media (min-width: 992px) { 
      
