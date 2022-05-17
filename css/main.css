@@ -20,6 +20,7 @@ a {
     text-decoration: none;
   }
 
+
 .color-overlay {
     position: absolute;
     width: 100%;
@@ -136,6 +137,15 @@ h1, h2, h4 {
 
      .content ul li {
         padding-bottom: 10px;
+    }
+    .btn-order {
+        color: var(--bs-blue);
+        transition: 0.8s;
+    }
+    .btn-order:hover,
+    .btn-order:active {
+    color: #fff;
+    background-color: var(--bs-gray) ;
     }
     
      @media (min-width: 992px) { 
