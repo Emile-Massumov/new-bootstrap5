@@ -145,8 +145,23 @@ h1, h2, h4 {
     .btn-order:hover,
     .btn-order:active {
     color: #fff;
-    background-color: var(--bs-gray) ;
+   /* background-color: var(--bs-gray) ;*/
     }
+
+    .dil-navbar
+    .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+    }
+
+    .dil-navbar
+    .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-blue);
+    
+    }
+
+
     
      @media (min-width: 992px) { 
      
