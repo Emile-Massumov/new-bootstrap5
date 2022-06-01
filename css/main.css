@@ -28,10 +28,18 @@ a {
     background-color: rgba(0,0,0,.2);
 }
 
-h1, h2, h4 {
-    font-family:'Prata', serif;
+h1, h2 {
+    font-family: 'Spline Sans Mono', monospace;
     text-align: center;
+}
 
+h4 {
+    font-family: 'Monoton';
+}
+
+a {
+    font-family: 'Spline Sans Mono', monospace;
+    font-size: 18px;
 }
 
 
@@ -68,6 +76,11 @@ h1, h2, h4 {
 }
 .steps {
     padding: 0 40px;
+    background-color: rgb(241, 232, 222);
+}
+.section-title {
+    background-color: rgb(241, 232, 222);
+
 }
 
 .section-title {
@@ -148,6 +161,15 @@ h1, h2, h4 {
    /* background-color: var(--bs-gray) ;*/
     }
 
+    .cc-steps {
+        background-color: #fff;
+    }
+
+    .cc-section-title {
+        background-color: #fff;
+ 
+    }
+
     .dil-navbar
     .nav-link {
     border-bottom: 1px solid transparent;
@@ -176,5 +198,4 @@ h1, h2, h4 {
         }
      
     }
-    .content ul {
-    }
+  
