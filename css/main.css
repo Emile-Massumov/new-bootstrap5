@@ -28,13 +28,17 @@ a {
     background-color: rgba(0,0,0,.2);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Spline Sans Mono', monospace;
-    text-align: center;
+}
+
+span {
+    font-size: 10px;
 }
 
 h4 {
     font-family: 'Monoton';
+    font-size: 10px;
 }
 
 a {
@@ -101,6 +105,8 @@ a {
         width: 100%;
         float: left;
      }
+
+   
      
     }
     @media (min-width: 720px) {.container-custom { 
@@ -114,6 +120,10 @@ a {
         width: 100%;
        
      }
+
+     h4, h3 {
+         font-size: 28px;
+     }
     
     
     
@@ -123,12 +133,20 @@ a {
         float: left;
         padding-left: 4rem;
      }
+
+     h4, h3 {
+        font-size: 28px;
+    }
     }
     @media (min-width: 1600px) {.container-custom { 
         width: 100%;
         float: left;
         padding-left: 4rem;
      }
+
+     h4, h3 {
+        font-size: 28px;
+    }
     }
     @media (min-width: 544px) {
         .steps {
