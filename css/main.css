@@ -46,6 +46,11 @@ a {
     font-size: 18px;
 }
 
+.steps p {
+    font-family: 'Spline Sans Mono', monospace;
+
+}
+
 
 .footer__color__home, 
 .footer__color__portfolio {
@@ -79,7 +84,7 @@ a {
     margin: 0 auto;
 }
 .steps {
-    padding: 0 40px;
+    padding: 16px 40px;
     background-color: rgb(241, 232, 222);
 }
 .section-title {
