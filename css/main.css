@@ -28,7 +28,8 @@ a {
     background-color: rgba(0,0,0,.2);
 }
 
-h1, h2, h3 {
+h1, h2, 
+h3, p {
     font-family: 'Spline Sans Mono', monospace;
 }
 
@@ -48,8 +49,9 @@ a {
 
 .steps p {
     font-family: 'Spline Sans Mono', monospace;
-
 }
+
+
 
 
 .footer__color__home, 
@@ -92,9 +94,6 @@ a {
 
 }
 
-.section-title {
-   text-align: center;
-}
 
 @media (max-width: 768px) {
     .hero {
@@ -130,6 +129,9 @@ a {
          font-size: 28px;
      }
     
+     p {
+        font-size: 1.25em;
+    }
     
     
     }
